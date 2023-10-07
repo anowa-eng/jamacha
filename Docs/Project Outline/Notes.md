@@ -1,0 +1,2 @@
+## Modules:
+- The app is already multi-purpose; there is no need for a module that fulfills many purposes. If a user wishes to make the module fulfill many needs, they should get as many modules as needed to accommodate them. Anyhow, people are still free to do whatever is comfortable.
