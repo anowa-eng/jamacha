@@ -1,4 +1,4 @@
-Modules:
+a:
 * MODULES are small pieces of software that are stored in servers **(Registry)**. They are generally built for one specific purpose.
 * The functionality of the app is entirely determined by modules.
 * A user can choose to install, remove, or exclude a module.
@@ -28,4 +28,8 @@ Modules --> Creation:
 * When publishing or registering a module, it automatically is sent to a registry where it is processed and stored.
 
 The Registry:
+* A registry is a database containing a plethora of modules available to users for installation.
+* There is no single primary server for access; rather, there are many registries to choose from. These registries need not be maintained by a monopoly, as that can lead to mishaps; they are set up by the community.
+
+The Registry --> Security:
 . . .
