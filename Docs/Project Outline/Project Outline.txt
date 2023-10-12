@@ -1,35 +1,52 @@
-a:
-* MODULES are small pieces of software that are stored in servers **(Registry)**. They are generally built for one specific purpose.
-* The functionality of the app is entirely determined by modules.
-* A user can choose to install, remove, or exclude a module.
-* Modules run one level after another **(Dependencies/Hierarchy)**.
-* There are some modules that, unlike most others, cannot be removed. **(Core UI)**
-* All modules are user-generated.
+Modules:
+
+    * MODULES are small pieces of software that are stored in servers **(Registry)**. They are generally built for one specific purpose.
+    * The functionality of the app is entirely determined by modules.
+    * A user can choose to install, remove, or exclude a module.
+    * Modules run one level after another **(Dependencies/Hierarchy)**.
+    * There are some modules that, unlike most others, cannot be removed. **(Core UI)**
+    * All modules are user-generated.
+
 
 Modules --> Core UI:
-* The "CORE UI" is the backbone of the app.
-* Theoretically, a user can delete essential modules if left unchecked. This can render the app unusable.
-* To nullify the chance of this happening, removing the Core UI modules is impossible.
+
+    * The "CORE UI" is the backbone of the app.
+    * Theoretically, a user can delete essential modules if left unchecked. This can render the app unusable.
+    * To nullify the chance of this happening, removing the Core UI modules is impossible.
+
 
 Modules --> Advanced Features:
-* Modules can reference each other with links.
+
+    * Modules can reference each other with links.
+
 
 Modules --> Hierarchy:
-* A module can run on any level as long as it's not above its dependencies.
+
+    * A module can run on any level as long as it's not above its dependencies.
+
 
 Modules --> Hierarchy --> Dependencies:
-* DEPENDENCIES are modules that other modules depend on to add extra elements to; in other words, MIGRATE the UI.
-* When a module runs, changes are made to the UI. These changes are called "migrations."
-* A module's migration will always run after its dependency.
+
+    * DEPENDENCIES are modules that other modules depend on to add extra elements to; in other words, MIGRATE the UI.
+    * When a module runs, changes are made to the UI. These changes are called "migrations."
+    * A module's migration will always run after its dependency.
+
 
 Modules --> Creation:
-* Modules can not only be created with the SDK, but also with a simple GUI.
-* Modules can also be automatically generated with AI.
-* When publishing or registering a module, it automatically is sent to a registry where it is processed and stored.
+
+    * Modules can not only be created with the SDK, but also with a simple GUI.
+    * Modules can also be automatically generated with AI.
+    * When publishing or registering a module, it automatically is sent to a registry where it is processed and stored.
+
 
 The Registry:
-* A registry is a database containing a plethora of modules available to users for installation.
-* There is no single primary server for access; rather, there are many registries to choose from. These registries need not be maintained by a monopoly, as that can lead to mishaps; they are set up by the community.
+
+    * A REGISTRY is a database containing a plethora of modules available to users for installation.
+    * There is no single primary server for access; rather, there are many registries to choose from.   
+        * These registries need not be maintained by a monopoly, as that can lead to mishaps. They are set up by the community.
+
 
 The Registry --> Security:
-. . .
+
+    * Perhaps an administrator can implement a system to approve or disapprove a module when it is submitted/requested. This is enabled by default.
+
